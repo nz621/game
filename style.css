@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: url('img/bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container{
+    border: 1px solid rgba(255,255,255, 0.3);
+    border-radius: 20px;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(231, 228, 18, 0.3);
+
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    
+}
+
+
+.input-group{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#taskInput{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+    font-size: 16px;
+    flex: 1;
+}
+
+#addTaskBtn{
+    padding: 10px 20px;
+    border: none;
+    color: rgb(255, 243, 243);
+    background-color: rgb(0, 0, 0);
+    border-radius: 0 10px 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+#addTaskBtn:hover{
+    background-color: rgb(7, 7, 158);
+    
+}
+
+#taskList{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#taskList li{
+    background: rgba(255,255,255,0.2);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.delete-btn{
+    background-color: rgb(141, 35, 35);
+    border: none;
+    padding: 5px 10px;
+    color: azure;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.delete-btn:hover{
+    background-color: black;
+}
+
+
+.completed{
+    text-decoration: line-through;
+}
+
